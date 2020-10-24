@@ -2,7 +2,7 @@
 class Shape{
   constructor(props)
   {
-    this.color=props;
+    this.color="blue";
   }
   drawShape(){
 
