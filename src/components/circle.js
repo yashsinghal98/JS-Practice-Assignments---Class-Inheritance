@@ -5,8 +5,8 @@ class Circle extends Shape{
   constructor(props)
   {
     super(props);
-    this.calculateArea=()=>{};
   }
+  calculateArea=()=>{};
 }
 export default Circle;
 // export class using module.exports
