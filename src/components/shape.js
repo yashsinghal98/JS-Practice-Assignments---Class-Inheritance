@@ -1,11 +1,12 @@
 // declare class
 class Shape{
+  color="red";
   constructor(props)
   {
     this.color="blue";
   }
-  drawShape(){
-
+  drawShape()
+  {
   }
   calculateArea(){}
 }
