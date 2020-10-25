@@ -2,11 +2,7 @@
 var Shape = require('./shape')
 // declare class
 class Circle extends Shape{
-  constructor()
-  {
-    super();
-    this.color="red";
-  }
+   constructor(){super();this.calculateArea=this.calculateArea.bind(this);}
   calculateArea(){};
 };
 module.exports=Circle;
