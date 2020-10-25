@@ -2,12 +2,11 @@
 import Shape from "./shape";
 // declare class
 class Circle extends Shape{
-  constructor(props)
+  constructor()
   {
-    super(props);
-    this.color="black";
+    super();
   }
-  calculateArea=()=>{};
-}
+  calculateArea(){};
+};
 export default Circle;
 // export class using module.exports

@@ -1,7 +1,7 @@
 // declare class
 class Shape{
   color="red";
-  constructor(props)
+  constructor()
   {
     this.color="blue";
   }
@@ -9,6 +9,6 @@ class Shape{
   {
   }
   calculateArea(){}
-}
+};
 export default Shape;
 // export class using module.exports
