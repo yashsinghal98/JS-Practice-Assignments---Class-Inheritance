@@ -5,9 +5,7 @@ class Shape{
   {
     this.color="blue";
   }
-  drawShape()
-  {
-  }
+  drawShape(){}
   calculateArea(){}
 };
 export default Shape;
