@@ -5,6 +5,7 @@ class Circle extends Shape{
   constructor()
   {
     super();
+    this.color="red";
   }
   calculateArea(){};
 };
