@@ -1,6 +1,7 @@
 // declare class
 class Shape{
-  drawShape(){this.color="red"}
+  color="red";
+  drawShape(){}
   calculateArea(){}
 };
 module.exports=Shape;
