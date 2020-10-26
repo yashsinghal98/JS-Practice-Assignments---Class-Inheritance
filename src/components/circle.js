@@ -5,5 +5,5 @@ class Circle extends Shape{
    constructor(){super();this.calculateArea=this.calculateArea.bind(this);}
   calculateArea(){};
 };
-module.exports.Circle=Circle;
+module.exports=Circle;
 // export class using module.exports
